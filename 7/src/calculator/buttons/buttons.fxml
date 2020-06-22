@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.buttons.ButtonsController">
+   <children>
+      <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="7" HBox.hgrow="ALWAYS" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="8" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="9" />
+                  <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="*" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="160.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="4" HBox.hgrow="ALWAYS" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="5" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="6" />
+                  <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="/" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="1" HBox.hgrow="ALWAYS" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="2" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="3" />
+                  <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="+" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="210.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="\%" HBox.hgrow="ALWAYS" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="0" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="=" />
+                  <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="105.0" text="-" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
