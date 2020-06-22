@@ -1,4 +1,3 @@
 package com.nasr;
 
-public enum TrackType {
-}
+public enum TrackType {pop, jazz, rock, country}
