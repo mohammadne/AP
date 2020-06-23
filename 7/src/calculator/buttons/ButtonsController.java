@@ -72,8 +72,6 @@ public class ButtonsController implements Initializable {
             String val = CalculatorState.value.get();
             CalculatorState.value.setValue(val + String.valueOf(number));
         }
-
-    System.out.print('s');
     }
 
     /*
@@ -124,7 +122,7 @@ public class ButtonsController implements Initializable {
             }
             CalculatorState.PerValue.setValue(perVal);
             CalculatorState.operator.setValue(null);
-            CalculatorState.value.setValue(null);
+            CalculatorState.value.setValue("");
         }
 
     }
@@ -132,7 +130,12 @@ public class ButtonsController implements Initializable {
     @FXML
     private void Dot(MouseEvent mouseEvent) {
         CalculatorState.enabledDot.setValue(true);
-        CalculatorState.value.setValue(CalculatorState.value.get() + ".");
+        Operator operator = CalculatorState.operator.get();
+        if (operator == null) {
+            CalculatorState.PerValue.setValue(CalculatorState.PerValue.get() + ".");
+        } else {
+            CalculatorState.value.setValue(CalculatorState.value.get() + ".");
+        }
     }
 
     @Override
