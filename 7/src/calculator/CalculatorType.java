@@ -1,4 +1,4 @@
 package calculator;
 
-public enum CalculatorType {
-}
+enum CalculatorType {Simple, Engineering}
+

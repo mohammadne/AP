@@ -1,4 +1,3 @@
 package calculator;
 
-public enum Operator {
-}
+public enum Operator {Plus, Minus, Multiple, Divide, Remain, Equal}
