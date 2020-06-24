@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+package note;
 
-public class NoteState {
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import models.Note;
+
+public abstract class NoteState {
+    public static ObservableList<Note> notes = FXCollections.observableArrayList();
 }
